@@ -20,3 +20,14 @@ To mine the horn rules over ontology follow the below given steps:
 ```prolog
 ?- get_paths_and_write_closed_rules(['hasBiomarker', 'patientDrug'], Paths, Rules, 3, 'MinedRules.txt').
 ```
+
+# Enriching and Transforming KG 
+
+The process involves the utilization of mined rules over the ontology or data, to enrich the original KG with newly inferred missing links. The component utilizes the enriched KG and SHACL constraints, i.e., clinical guidelines to check whether the prediction comply with the medical protocols.
+For instance, a SHACL constraints is ***"whether a patient with EGFR negative receives Nivolumab drug?"***.
+
+For executing the script, execute following command in terminal:
+``` python
+python symbolic_predictions.py
+```
+The above command will generate enriched KG and transformed KG in `benchmarks` folder. 

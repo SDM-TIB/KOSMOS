@@ -1,0 +1,6 @@
+{
+  "Type": "Baseline1",
+  "KG": "./benchmarks/Baseline1/baseline1.nt",
+  "model": ["TransE", "TransH","TransD"],
+  "path_to_results": "./Results/Baseline1/"
+}
