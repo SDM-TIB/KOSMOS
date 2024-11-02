@@ -1,0 +1,522 @@
+High Confidence Rules (>= 0.80)
+
+Rule #1:
+Rule: hasBiomarker('X1','X2') :- hasAgeCategory('X1','X3').
+Support: 1612
+Confidence: 1.0
+PCA Confidence: 1.0
+
+Rule #2:
+Rule: hasBiomarker('X1','X2') :- hasGender('X1','X3').
+Support: 1612
+Confidence: 1.0
+PCA Confidence: 1.0
+
+Rule #3:
+Rule: hasBiomarker('X1','X2') :- hasSmokingHabit('X1','X3').
+Support: 1612
+Confidence: 1.0
+PCA Confidence: 1.0
+
+Rule #4:
+Rule: hasBiomarker('X1','X2') :- hasStage('X1','X3').
+Support: 1612
+Confidence: 1.0
+PCA Confidence: 1.0
+
+Rule #5:
+Rule: hasBiomarker('X1','X2') :- patientDrug('X1','X3').
+Support: 1389
+Confidence: 0.861663
+PCA Confidence: 1.0
+
+Rule #6:
+Rule: hasBiomarker('X1','X2') :- treatmentType('X1','X3').
+Support: 1532
+Confidence: 0.950372
+PCA Confidence: 1.0
+
+Rule #7:
+Rule: hasBiomarker('X1','X2') :- hasAgeCategory('X1','X3'),hasGender('X1','X4').
+Support: 1612
+Confidence: 1.0
+PCA Confidence: 1.0
+
+Rule #8:
+Rule: hasBiomarker('X1','X2') :- hasAgeCategory('X1','X3'),hasSmokingHabit('X1','X4').
+Support: 1612
+Confidence: 1.0
+PCA Confidence: 1.0
+
+Rule #9:
+Rule: hasBiomarker('X1','X2') :- hasAgeCategory('X1','X3'),hasStage('X1','X4').
+Support: 1612
+Confidence: 1.0
+PCA Confidence: 1.0
+
+Rule #10:
+Rule: hasBiomarker('X1','X2') :- hasAgeCategory('X1','X3'),patientDrug('X1','X4').
+Support: 1389
+Confidence: 0.861663
+PCA Confidence: 1.0
+
+Rule #11:
+Rule: hasBiomarker('X1','X2') :- hasAgeCategory('X1','X3'),treatmentType('X1','X4').
+Support: 1532
+Confidence: 0.950372
+PCA Confidence: 1.0
+
+Rule #12:
+Rule: hasBiomarker('X1','X2') :- hasAgeCategory('X1','X3'),hasGender('X1','X4'),hasSmokingHabit('X1','X5').
+Support: 1612
+Confidence: 1.0
+PCA Confidence: 1.0
+
+Rule #13:
+Rule: hasBiomarker('X1','X2') :- hasAgeCategory('X1','X3'),hasGender('X1','X4'),hasStage('X1','X5').
+Support: 1612
+Confidence: 1.0
+PCA Confidence: 1.0
+
+Rule #14:
+Rule: hasBiomarker('X1','X2') :- hasAgeCategory('X1','X3'),hasGender('X1','X4'),patientDrug('X1','X5').
+Support: 1389
+Confidence: 0.861663
+PCA Confidence: 1.0
+
+Rule #15:
+Rule: hasBiomarker('X1','X2') :- hasAgeCategory('X1','X3'),hasGender('X1','X4'),treatmentType('X1','X5').
+Support: 1532
+Confidence: 0.950372
+PCA Confidence: 1.0
+
+Rule #16:
+Rule: hasBiomarker('X1','X2') :- hasAgeCategory('X1','X3'),hasGender('X1','X4'),hasSmokingHabit('X1','X5'),hasStage('X1','X6').
+Support: 1612
+Confidence: 1.0
+PCA Confidence: 1.0
+
+Rule #17:
+Rule: hasBiomarker('X1','X2') :- hasAgeCategory('X1','X3'),hasGender('X1','X4'),hasSmokingHabit('X1','X5'),patientDrug('X1','X6').
+Support: 1389
+Confidence: 0.861663
+PCA Confidence: 1.0
+
+Rule #18:
+Rule: hasBiomarker('X1','X2') :- hasAgeCategory('X1','X3'),hasGender('X1','X4'),hasSmokingHabit('X1','X5'),treatmentType('X1','X6').
+Support: 1532
+Confidence: 0.950372
+PCA Confidence: 1.0
+
+Rule #19:
+Rule: hasBiomarker('X1','X2') :- hasAgeCategory('X1','X3'),hasGender('X1','X4'),hasStage('X1','X5'),patientDrug('X1','X6').
+Support: 1389
+Confidence: 0.861663
+PCA Confidence: 1.0
+
+Rule #20:
+Rule: hasBiomarker('X1','X2') :- hasAgeCategory('X1','X3'),hasGender('X1','X4'),hasStage('X1','X5'),treatmentType('X1','X6').
+Support: 1532
+Confidence: 0.950372
+PCA Confidence: 1.0
+
+Rule #21:
+Rule: hasBiomarker('X1','X2') :- hasAgeCategory('X1','X3'),hasGender('X1','X4'),patientDrug('X1','X5'),treatmentType('X1','X6').
+Support: 1363
+Confidence: 0.845533
+PCA Confidence: 1.0
+
+Rule #22:
+Rule: hasBiomarker('X1','X2') :- hasAgeCategory('X1','X3'),hasSmokingHabit('X1','X4'),hasStage('X1','X5').
+Support: 1612
+Confidence: 1.0
+PCA Confidence: 1.0
+
+Rule #23:
+Rule: hasBiomarker('X1','X2') :- hasAgeCategory('X1','X3'),hasSmokingHabit('X1','X4'),patientDrug('X1','X5').
+Support: 1389
+Confidence: 0.861663
+PCA Confidence: 1.0
+
+Rule #24:
+Rule: hasBiomarker('X1','X2') :- hasAgeCategory('X1','X3'),hasSmokingHabit('X1','X4'),treatmentType('X1','X5').
+Support: 1532
+Confidence: 0.950372
+PCA Confidence: 1.0
+
+Rule #25:
+Rule: hasBiomarker('X1','X2') :- hasAgeCategory('X1','X3'),hasSmokingHabit('X1','X4'),hasStage('X1','X5'),patientDrug('X1','X6').
+Support: 1389
+Confidence: 0.861663
+PCA Confidence: 1.0
+
+Rule #26:
+Rule: hasBiomarker('X1','X2') :- hasAgeCategory('X1','X3'),hasSmokingHabit('X1','X4'),hasStage('X1','X5'),treatmentType('X1','X6').
+Support: 1532
+Confidence: 0.950372
+PCA Confidence: 1.0
+
+Rule #27:
+Rule: hasBiomarker('X1','X2') :- hasAgeCategory('X1','X3'),hasSmokingHabit('X1','X4'),patientDrug('X1','X5'),treatmentType('X1','X6').
+Support: 1363
+Confidence: 0.845533
+PCA Confidence: 1.0
+
+Rule #28:
+Rule: hasBiomarker('X1','X2') :- hasAgeCategory('X1','X3'),hasStage('X1','X4'),patientDrug('X1','X5').
+Support: 1389
+Confidence: 0.861663
+PCA Confidence: 1.0
+
+Rule #29:
+Rule: hasBiomarker('X1','X2') :- hasAgeCategory('X1','X3'),hasStage('X1','X4'),treatmentType('X1','X5').
+Support: 1532
+Confidence: 0.950372
+PCA Confidence: 1.0
+
+Rule #30:
+Rule: hasBiomarker('X1','X2') :- hasAgeCategory('X1','X3'),hasStage('X1','X4'),patientDrug('X1','X5'),treatmentType('X1','X6').
+Support: 1363
+Confidence: 0.845533
+PCA Confidence: 1.0
+
+Rule #31:
+Rule: hasBiomarker('X1','X2') :- hasAgeCategory('X1','X3'),patientDrug('X1','X4'),treatmentType('X1','X5').
+Support: 1363
+Confidence: 0.845533
+PCA Confidence: 1.0
+
+Rule #32:
+Rule: hasBiomarker('X1','X2') :- hasGender('X1','X3'),hasSmokingHabit('X1','X4').
+Support: 1612
+Confidence: 1.0
+PCA Confidence: 1.0
+
+Rule #33:
+Rule: hasBiomarker('X1','X2') :- hasGender('X1','X3'),hasStage('X1','X4').
+Support: 1612
+Confidence: 1.0
+PCA Confidence: 1.0
+
+Rule #34:
+Rule: hasBiomarker('X1','X2') :- hasGender('X1','X3'),patientDrug('X1','X4').
+Support: 1389
+Confidence: 0.861663
+PCA Confidence: 1.0
+
+Rule #35:
+Rule: hasBiomarker('X1','X2') :- hasGender('X1','X3'),treatmentType('X1','X4').
+Support: 1532
+Confidence: 0.950372
+PCA Confidence: 1.0
+
+Rule #36:
+Rule: hasBiomarker('X1','X2') :- hasGender('X1','X3'),hasSmokingHabit('X1','X4'),hasStage('X1','X5').
+Support: 1612
+Confidence: 1.0
+PCA Confidence: 1.0
+
+Rule #37:
+Rule: hasBiomarker('X1','X2') :- hasGender('X1','X3'),hasSmokingHabit('X1','X4'),patientDrug('X1','X5').
+Support: 1389
+Confidence: 0.861663
+PCA Confidence: 1.0
+
+Rule #38:
+Rule: hasBiomarker('X1','X2') :- hasGender('X1','X3'),hasSmokingHabit('X1','X4'),treatmentType('X1','X5').
+Support: 1532
+Confidence: 0.950372
+PCA Confidence: 1.0
+
+Rule #39:
+Rule: hasBiomarker('X1','X2') :- hasGender('X1','X3'),hasSmokingHabit('X1','X4'),hasStage('X1','X5'),patientDrug('X1','X6').
+Support: 1389
+Confidence: 0.861663
+PCA Confidence: 1.0
+
+Rule #40:
+Rule: hasBiomarker('X1','X2') :- hasGender('X1','X3'),hasSmokingHabit('X1','X4'),hasStage('X1','X5'),treatmentType('X1','X6').
+Support: 1532
+Confidence: 0.950372
+PCA Confidence: 1.0
+
+Rule #41:
+Rule: hasBiomarker('X1','X2') :- hasGender('X1','X3'),hasSmokingHabit('X1','X4'),patientDrug('X1','X5'),treatmentType('X1','X6').
+Support: 1363
+Confidence: 0.845533
+PCA Confidence: 1.0
+
+Rule #42:
+Rule: hasBiomarker('X1','X2') :- hasGender('X1','X3'),hasStage('X1','X4'),patientDrug('X1','X5').
+Support: 1389
+Confidence: 0.861663
+PCA Confidence: 1.0
+
+Rule #43:
+Rule: hasBiomarker('X1','X2') :- hasGender('X1','X3'),hasStage('X1','X4'),treatmentType('X1','X5').
+Support: 1532
+Confidence: 0.950372
+PCA Confidence: 1.0
+
+Rule #44:
+Rule: hasBiomarker('X1','X2') :- hasGender('X1','X3'),hasStage('X1','X4'),patientDrug('X1','X5'),treatmentType('X1','X6').
+Support: 1363
+Confidence: 0.845533
+PCA Confidence: 1.0
+
+Rule #45:
+Rule: hasBiomarker('X1','X2') :- hasGender('X1','X3'),patientDrug('X1','X4'),treatmentType('X1','X5').
+Support: 1363
+Confidence: 0.845533
+PCA Confidence: 1.0
+
+Rule #46:
+Rule: hasBiomarker('X1','X2') :- hasSmokingHabit('X1','X3'),hasStage('X1','X4').
+Support: 1612
+Confidence: 1.0
+PCA Confidence: 1.0
+
+Rule #47:
+Rule: hasBiomarker('X1','X2') :- hasSmokingHabit('X1','X3'),patientDrug('X1','X4').
+Support: 1389
+Confidence: 0.861663
+PCA Confidence: 1.0
+
+Rule #48:
+Rule: hasBiomarker('X1','X2') :- hasSmokingHabit('X1','X3'),treatmentType('X1','X4').
+Support: 1532
+Confidence: 0.950372
+PCA Confidence: 1.0
+
+Rule #49:
+Rule: hasBiomarker('X1','X2') :- hasSmokingHabit('X1','X3'),hasStage('X1','X4'),patientDrug('X1','X5').
+Support: 1389
+Confidence: 0.861663
+PCA Confidence: 1.0
+
+Rule #50:
+Rule: hasBiomarker('X1','X2') :- hasSmokingHabit('X1','X3'),hasStage('X1','X4'),treatmentType('X1','X5').
+Support: 1532
+Confidence: 0.950372
+PCA Confidence: 1.0
+
+Rule #51:
+Rule: hasBiomarker('X1','X2') :- hasSmokingHabit('X1','X3'),hasStage('X1','X4'),patientDrug('X1','X5'),treatmentType('X1','X6').
+Support: 1363
+Confidence: 0.845533
+PCA Confidence: 1.0
+
+Rule #52:
+Rule: hasBiomarker('X1','X2') :- hasSmokingHabit('X1','X3'),patientDrug('X1','X4'),treatmentType('X1','X5').
+Support: 1363
+Confidence: 0.845533
+PCA Confidence: 1.0
+
+Rule #53:
+Rule: hasBiomarker('X1','X2') :- hasStage('X1','X3'),patientDrug('X1','X4').
+Support: 1389
+Confidence: 0.861663
+PCA Confidence: 1.0
+
+Rule #54:
+Rule: hasBiomarker('X1','X2') :- hasStage('X1','X3'),treatmentType('X1','X4').
+Support: 1532
+Confidence: 0.950372
+PCA Confidence: 1.0
+
+Rule #55:
+Rule: hasBiomarker('X1','X2') :- hasStage('X1','X3'),patientDrug('X1','X4'),treatmentType('X1','X5').
+Support: 1363
+Confidence: 0.845533
+PCA Confidence: 1.0
+
+Rule #56:
+Rule: hasBiomarker('X1','X2') :- patientDrug('X1','X3'),treatmentType('X1','X4').
+Support: 1363
+Confidence: 0.845533
+PCA Confidence: 1.0
+
+Rule #57:
+Rule: patientDrug('X1','X2') :- hasAgeCategory('X1','X3').
+Support: 2979
+Confidence: 1.0
+PCA Confidence: 1.0
+
+Rule #58:
+Rule: patientDrug('X1','X2') :- hasGender('X1','X3').
+Support: 2979
+Confidence: 1.0
+PCA Confidence: 1.0
+
+Rule #59:
+Rule: patientDrug('X1','X2') :- hasSmokingHabit('X1','X3').
+Support: 2972
+Confidence: 0.99765
+PCA Confidence: 1.0
+
+Rule #60:
+Rule: patientDrug('X1','X2') :- hasStage('X1','X3').
+Support: 2979
+Confidence: 1.0
+PCA Confidence: 1.0
+
+Rule #61:
+Rule: patientDrug('X1','X2') :- treatmentType('X1','X3').
+Support: 2951
+Confidence: 0.990601
+PCA Confidence: 1.0
+
+Rule #62:
+Rule: patientDrug('X1','X2') :- hasAgeCategory('X1','X3'),hasGender('X1','X4').
+Support: 2979
+Confidence: 1.0
+PCA Confidence: 1.0
+
+Rule #63:
+Rule: patientDrug('X1','X2') :- hasAgeCategory('X1','X3'),hasSmokingHabit('X1','X4').
+Support: 2972
+Confidence: 0.99765
+PCA Confidence: 1.0
+
+Rule #64:
+Rule: patientDrug('X1','X2') :- hasAgeCategory('X1','X3'),hasStage('X1','X4').
+Support: 2979
+Confidence: 1.0
+PCA Confidence: 1.0
+
+Rule #65:
+Rule: patientDrug('X1','X2') :- hasAgeCategory('X1','X3'),treatmentType('X1','X4').
+Support: 2951
+Confidence: 0.990601
+PCA Confidence: 1.0
+
+Rule #66:
+Rule: patientDrug('X1','X2') :- hasAgeCategory('X1','X3'),hasGender('X1','X4'),hasSmokingHabit('X1','X5').
+Support: 2972
+Confidence: 0.99765
+PCA Confidence: 1.0
+
+Rule #67:
+Rule: patientDrug('X1','X2') :- hasAgeCategory('X1','X3'),hasGender('X1','X4'),hasStage('X1','X5').
+Support: 2979
+Confidence: 1.0
+PCA Confidence: 1.0
+
+Rule #68:
+Rule: patientDrug('X1','X2') :- hasAgeCategory('X1','X3'),hasGender('X1','X4'),treatmentType('X1','X5').
+Support: 2951
+Confidence: 0.990601
+PCA Confidence: 1.0
+
+Rule #69:
+Rule: patientDrug('X1','X2') :- hasAgeCategory('X1','X3'),hasGender('X1','X4'),hasSmokingHabit('X1','X5'),hasStage('X1','X6').
+Support: 2972
+Confidence: 0.99765
+PCA Confidence: 1.0
+
+Rule #70:
+Rule: patientDrug('X1','X2') :- hasAgeCategory('X1','X3'),hasGender('X1','X4'),hasSmokingHabit('X1','X5'),treatmentType('X1','X6').
+Support: 2944
+Confidence: 0.988251
+PCA Confidence: 1.0
+
+Rule #71:
+Rule: patientDrug('X1','X2') :- hasAgeCategory('X1','X3'),hasGender('X1','X4'),hasStage('X1','X5'),treatmentType('X1','X6').
+Support: 2951
+Confidence: 0.990601
+PCA Confidence: 1.0
+
+Rule #72:
+Rule: patientDrug('X1','X2') :- hasAgeCategory('X1','X3'),hasSmokingHabit('X1','X4'),hasStage('X1','X5').
+Support: 2972
+Confidence: 0.99765
+PCA Confidence: 1.0
+
+Rule #73:
+Rule: patientDrug('X1','X2') :- hasAgeCategory('X1','X3'),hasSmokingHabit('X1','X4'),treatmentType('X1','X5').
+Support: 2944
+Confidence: 0.988251
+PCA Confidence: 1.0
+
+Rule #74:
+Rule: patientDrug('X1','X2') :- hasAgeCategory('X1','X3'),hasSmokingHabit('X1','X4'),hasStage('X1','X5'),treatmentType('X1','X6').
+Support: 2944
+Confidence: 0.988251
+PCA Confidence: 1.0
+
+Rule #75:
+Rule: patientDrug('X1','X2') :- hasAgeCategory('X1','X3'),hasStage('X1','X4'),treatmentType('X1','X5').
+Support: 2951
+Confidence: 0.990601
+PCA Confidence: 1.0
+
+Rule #76:
+Rule: patientDrug('X1','X2') :- hasGender('X1','X3'),hasSmokingHabit('X1','X4').
+Support: 2972
+Confidence: 0.99765
+PCA Confidence: 1.0
+
+Rule #77:
+Rule: patientDrug('X1','X2') :- hasGender('X1','X3'),hasStage('X1','X4').
+Support: 2979
+Confidence: 1.0
+PCA Confidence: 1.0
+
+Rule #78:
+Rule: patientDrug('X1','X2') :- hasGender('X1','X3'),treatmentType('X1','X4').
+Support: 2951
+Confidence: 0.990601
+PCA Confidence: 1.0
+
+Rule #79:
+Rule: patientDrug('X1','X2') :- hasGender('X1','X3'),hasSmokingHabit('X1','X4'),hasStage('X1','X5').
+Support: 2972
+Confidence: 0.99765
+PCA Confidence: 1.0
+
+Rule #80:
+Rule: patientDrug('X1','X2') :- hasGender('X1','X3'),hasSmokingHabit('X1','X4'),treatmentType('X1','X5').
+Support: 2944
+Confidence: 0.988251
+PCA Confidence: 1.0
+
+Rule #81:
+Rule: patientDrug('X1','X2') :- hasGender('X1','X3'),hasSmokingHabit('X1','X4'),hasStage('X1','X5'),treatmentType('X1','X6').
+Support: 2944
+Confidence: 0.988251
+PCA Confidence: 1.0
+
+Rule #82:
+Rule: patientDrug('X1','X2') :- hasGender('X1','X3'),hasStage('X1','X4'),treatmentType('X1','X5').
+Support: 2951
+Confidence: 0.990601
+PCA Confidence: 1.0
+
+Rule #83:
+Rule: patientDrug('X1','X2') :- hasSmokingHabit('X1','X3'),hasStage('X1','X4').
+Support: 2972
+Confidence: 0.99765
+PCA Confidence: 1.0
+
+Rule #84:
+Rule: patientDrug('X1','X2') :- hasSmokingHabit('X1','X3'),treatmentType('X1','X4').
+Support: 2944
+Confidence: 0.988251
+PCA Confidence: 1.0
+
+Rule #85:
+Rule: patientDrug('X1','X2') :- hasSmokingHabit('X1','X3'),hasStage('X1','X4'),treatmentType('X1','X5').
+Support: 2944
+Confidence: 0.988251
+PCA Confidence: 1.0
+
+Rule #86:
+Rule: patientDrug('X1','X2') :- hasStage('X1','X3'),treatmentType('X1','X4').
+Support: 2951
+Confidence: 0.990601
+PCA Confidence: 1.0
+
+
+Summary:
+Total rules processed: 196
+Rules with confidence >= 0.80: 86
