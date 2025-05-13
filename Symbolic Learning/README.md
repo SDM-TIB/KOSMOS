@@ -18,7 +18,7 @@ To mine the horn rules over ontology follow the below given steps:
 1) Download SWI-Prolog (https://www.swi-prolog.org/download/stable)
 2) Load the file `MinedRules_ontology.pl` in SWI-Prolog.
 ```prolog
-?- get_paths_and_write_closed_rules(['hasBiomarker', 'patientDrug'], Paths, Rules, 3, 'MinedRules.txt').
+?- get_paths_and_write_rules_with_vars(['hasBiomarker', 'patientDrug'], Paths, Rules, 3, 'MinedRules.txt').
 ```
 
 # Enriching and Transforming KG 
